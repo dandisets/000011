@@ -2,8 +2,11 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000011
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.3.0/context.json
+about: []
 access:
-- status: dandi:Open
+- contactPoint:
+    schemaKey: ContactPoint
+  status: dandi:Open
 citation: 'Li, Nuo; Daie, Kayvon; Svoboda, Karel; Druckmann, Shaul (2021) Robust neuronal
   dynamics in premotor cortex during motor planning. Online: https://dandiarchive.org/000011/draft'
 contributor:
@@ -37,9 +40,12 @@ contributor:
   - dandi:Author
   schemaKey: Person
 - affiliation:
-  - includeInCitation: false
+  - contactPoint: []
+    includeInCitation: false
     name: Janelia Research Campus, Howard Hughes Medical Institute
+    roleName: []
     schemaKey: Organization
+  identifier: 0000-0003-0068-3377
   includeInCitation: true
   name: Druckmann, Shaul
   roleName:
@@ -48,15 +54,22 @@ contributor:
   schemaKey: Person
 description: Data from "Robust neuronal dynamics in premotor cortex during motor planning"
   Nature 2016
+ethicsApproval: []
 id: 000011/draft
 identifier: DANDI:000011
+keywords: []
 license:
 - spdx:CC-BY-4.0
+manifestLocation: []
 name: Robust neuronal dynamics in premotor cortex during motor planning
+protocol: []
 relatedResource:
 - identifier: doi:10.1038/nature17643
   relation: dandi:IsDescribedBy
 repository: https://dandiarchive.org/
+schemaKey: Dandiset
 schemaVersion: 0.3.0
+studyTarget: []
 url: https://dandiarchive.org/000011/draft
 version: draft
+wasGeneratedBy: []
