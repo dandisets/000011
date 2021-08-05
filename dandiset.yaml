@@ -91,7 +91,8 @@ identifier: DANDI:000011
 keywords: []
 license:
 - spdx:CC-BY-4.0
-manifestLocation: []
+manifestLocation:
+- https://api.dandiarchive.org/api/dandisets/000011/versions/draft/assets/
 name: Robust neuronal dynamics in premotor cortex during motor planning
 protocol: []
 relatedResource:
