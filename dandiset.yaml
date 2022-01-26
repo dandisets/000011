@@ -99,8 +99,10 @@ name: Robust neuronal dynamics in premotor cortex during motor planning
 protocol: []
 relatedResource:
 - identifier: doi:10.1038/nature17643
+  name: Robust neuronal dynamics in premotor cortex during motor planning
   relation: dcite:IsDescribedBy
   schemaKey: Resource
+  url: https://doi.org/10.1038/nature17643
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.6.0
