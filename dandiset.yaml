@@ -2,7 +2,10 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000011
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
-about: []
+about:
+- identifier: UBERON:0016634
+  name: premotor cortex
+  schemaKey: Anatomy
 access:
 - contactPoint:
     schemaKey: ContactPoint
@@ -103,7 +106,7 @@ relatedResource:
   relation: dcite:IsDescribedBy
   schemaKey: Resource
   url: https://doi.org/10.1038/nature17643
-repository: https://dandiarchive.org/
+repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
