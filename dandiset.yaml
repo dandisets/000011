@@ -2,10 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000011
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
-about:
-- identifier: UBERON:0016634
-  name: premotor cortex
-  schemaKey: Anatomy
+about: []
 access:
 - contactPoint:
     schemaKey: ContactPoint
@@ -13,9 +10,9 @@ access:
   status: dandi:OpenAccess
 assetsSummary:
   approach:
-  - name: electrophysiological approach
-    schemaKey: ApproachType
   - name: behavioral approach
+    schemaKey: ApproachType
+  - name: electrophysiological approach
     schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
@@ -41,7 +38,7 @@ assetsSummary:
   - ElectrodeGroup
   - Units
   - BehavioralTimeSeries
-citation: Li, Nuo; Daie, Kayvon; Svoboda, Karel; Druckmann, Shaul (2022) Robust neuronal
+citation: Li, Nuo; Daie, Kayvon; Svoboda, Karel; Druckmann, Shaul (2024) Robust neuronal
   dynamics in premotor cortex during motor planning (Version draft) [Data set]. DANDI
   archive. https://dandiarchive.org/dandiset/000011/draft
 contributor:
@@ -104,6 +101,8 @@ relatedResource:
 - identifier: doi:10.1038/nature17643
   name: Robust neuronal dynamics in premotor cortex during motor planning
   relation: dcite:IsDescribedBy
+  repository: Nature
+  resourceType: dcite:JournalArticle
   schemaKey: Resource
   url: https://doi.org/10.1038/nature17643
 repository: https://dandiarchive.org
