@@ -39,13 +39,12 @@ assetsSummary:
   - ElectrodeGroup
   - Units
   - BehavioralTimeSeries
-citation: Li, Nuo; Daie, Kayvon; Svoboda, Karel; Druckmann, Shaul (2024) Robust neuronal
+citation: Li, Nuo; Daie, Kayvon; Svoboda, Karel; Druckmann, Shaul (2025) Robust neuronal
   dynamics in premotor cortex during motor planning (Version draft) [Data set]. DANDI
-  archive. https://dandiarchive.org/dandiset/000011/draft
+  Archive. https://dandiarchive.org/dandiset/000011/draft
 contributor:
 - affiliation:
-  - includeInCitation: false
-    name: Janelia Research Campus, Howard Hughes Medical Institute
+  - name: Janelia Research Campus, Howard Hughes Medical Institute
     schemaKey: Affiliation
   identifier: 0000-0002-6613-5018
   includeInCitation: true
@@ -55,8 +54,7 @@ contributor:
   - dcite:DataCollector
   schemaKey: Person
 - affiliation:
-  - includeInCitation: false
-    name: Janelia Research Campus, Howard Hughes Medical Institute
+  - name: Janelia Research Campus, Howard Hughes Medical Institute
     schemaKey: Affiliation
   includeInCitation: true
   name: Daie, Kayvon
@@ -64,8 +62,7 @@ contributor:
   - dcite:Author
   schemaKey: Person
 - affiliation:
-  - includeInCitation: false
-    name: Janelia Research Campus, Howard Hughes Medical Institute
+  - name: Janelia Research Campus, Howard Hughes Medical Institute
     schemaKey: Affiliation
   includeInCitation: true
   name: Svoboda, Karel
@@ -73,10 +70,7 @@ contributor:
   - dcite:Author
   schemaKey: Person
 - affiliation:
-  - contactPoint: []
-    includeInCitation: false
-    name: Janelia Research Campus, Howard Hughes Medical Institute
-    roleName: []
+  - name: Janelia Research Campus, Howard Hughes Medical Institute
     schemaKey: Affiliation
   identifier: 0000-0003-0068-3377
   includeInCitation: true
